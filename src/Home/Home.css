@@ -1,0 +1,215 @@
+/* home body */
+.home-container{
+    width: 80%;
+    margin: 50px auto;
+    /* background-color: white; */
+}
+.home-typing-test-info{
+    display: flex;
+
+}
+.home-typing-test-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    /* gap: 10px; */
+}
+.typing-test-graph{
+    width: 75%;
+    background-color: rgb(50,149,219);
+    border-radius: 5px;
+    /* height: 300px; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  20px;
+  flex-direction: column;
+}
+.home-test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 9px 1px lightgray; */
+}
+.home-type-test-container{
+    width: 100%;
+    padding: 2px;
+    /* width: 200px; */
+    /* border-radius: 5px; */
+}
+
+.onclick-home-type-test-container{
+    background-color: rgb(50,149,219);
+    border-radius: 5px 0 0 5px ;
+}
+.onclick-home-type-test-container-inner{
+    background-color: rgb(50,149,219);
+    box-shadow: 0px 0px;
+    color: white;
+    /* font-size: 20px; */
+    font-weight: 600;
+}
+.typing-test-graph-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.typing-test-graph-sub-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 10px; */
+}
+.typing-test-graph-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.typing-test-graph-title span{
+    font-size: 24px;
+}
+.graph-btn {
+    padding: 5px;
+    /* border-radius: 5px; */
+    color: #7878a3;
+    border: 1px solid #7979dc;
+    background-color: #e5f1f4;
+    width: 90px;
+    font-size: 12px;
+    text-align: center;
+    margin: 3px 0;
+    cursor: pointer;
+  }
+  .graph-btn:hover{
+    background-color: #eef2f4;
+  }
+  .graph-accuracy-btn{
+    border-radius: 5px 0 0 5px !important;
+  }
+  .graph-speed-btn{
+    border-radius: 0 5px 5px 0 !important;
+    border-left: 0 !important;
+  }
+  .onclick-graph-btn-bg-color{
+    background-color: aqua;
+  }
+  .mixed-chart{
+    height: 350px;
+  }
+
+  @media  (max-width: 1300px) {
+    .home-container{
+      width: 90%;
+      margin: 50px auto;
+      /* background-color: white; */
+    }
+  }
+  @media  (max-width: 900px) {
+    .home-typing-test-info{
+      flex-direction: column;
+    }
+    .home-typing-test-type {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .typing-test-graph {
+      width: 100%;
+    }
+    .onclick-home-type-test-container {
+      background-color: rgb(50,149,219);
+      border-radius: 5px 5px;
+    }
+  }
+  @media  (max-width: 700px) {
+    .mixed-chart{
+      height: 300px;
+    }
+    .row{
+      height: 300px;
+    }
+    .app{
+      height: 300px;
+    }
+
+    .home-test {
+      padding: 10px;
+    }
+    .home-container {
+      width: 90%;
+      margin: 25px auto;
+    }
+    .typing-test-graph {
+      padding: 10px;
+    }
+    .typing-test-graph-desc {
+      margin-bottom: 10px;
+    }
+  }
+  @media  (max-width: 600px) {
+    .mixed-chart{
+      height: 280px;
+      padding: 2px;
+    }
+  }
+  @media  (max-width: 500px) {
+    .typing-test-graph-title {
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .typing-test-graph-title span {
+      font-size: 16px;
+    }
+    .graph-btn {
+      padding: 4px;
+      font-size: 11px;
+    }
+    .typing-test-btn {
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .typing-test-graph-desc {
+      padding: 0 0px 3px 0;
+    }
+  }
+  @media  (max-width: 400px) {
+    .home-test {
+      padding: 5px;
+    }
+    .typing-test-graph {
+      padding: 5px;
+    }
+    .typing-test-graph-desc {
+      margin-bottom: 5px;
+    }
+    .mixed-chart{
+      height: 280px;
+    }
+    .row{
+      height: 280px;
+    }
+    .app{
+      height: 280px;
+    }
+    .home-container {
+      width: 90%;
+      margin: 15px auto;
+    }
+    .hrr{
+      margin: 5px 0 10px 0;
+    }
+    .typing-tests-title{
+      font-size: 16px;
+    }
+  }

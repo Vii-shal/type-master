@@ -1,0 +1,51 @@
+.app{
+    margin: 0;
+    padding: 0;
+}
+.typing-test-header{
+    display: flex;
+  color: white;
+  background: linear-gradient(180deg, #1175bf, #60bfd5);
+  padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  /* position: fixed; */
+  /* width: 100%; */
+  /* top: 0; */
+}
+.typing-test-heading{
+    font-size: 22px;
+  font-weight: 900;
+}
+.typing-test-type{
+    font-size: 15px;
+  font-weight: 500;
+}
+.typing-test-feature{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 15px;
+}
+.typing-timer{
+    font-size: 22px;
+    font-weight: 900;
+}
+.typing-setting-icons{
+    display: flex;
+    gap: 12px;
+}
+.typing-testing-box{
+    margin: 30px auto;
+}
+.progress-bar{
+    background-color: #68ae4e !important;
+    height: 6px;
+    /* width: 0%; */
+}
+.type-sound-setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

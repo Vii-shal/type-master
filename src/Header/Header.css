@@ -1,0 +1,42 @@
+.header-typing-test-header{
+    display: flex;
+  color: white;
+  background: linear-gradient(180deg, #1175bf, #60bfd5);
+  padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.header-typing-test-heading{
+    font-size: 22px;
+  font-weight: 900;
+}
+.header-typing-test-feature{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 15px;
+}
+.typing-test-btn{
+    background-color:  #fcd504;
+    padding: 2px 4px;
+    border-radius: 5px;
+    color: #7d5959;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+@media  (max-width: 500px) {
+  .header-log-in{
+    margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  }
+}
+
+
+
+
+

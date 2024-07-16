@@ -1,0 +1,107 @@
+
+.typing-text-container{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    font-size: 30px;
+    background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 500px;
+  line-height: 2;
+  scroll-behavior: smooth;
+  min-height: 300px;
+    height: 80vh;
+}
+.word-container{
+    display: flex;
+}
+.letter-container{
+    padding: 2px;
+    margin: 1px;
+    border-radius: 5px;
+    /* margin: 3px 1px; */
+
+}
+.correct-letter{
+    color: #38bb38;
+  background-color: #e6f8e6;
+    padding: 2px;
+    margin: 1px;
+    border-radius: 5px;
+    /* margin: 3px 1px; */
+    /* animation: fall 3s forwards; */
+
+}
+.wrong-letter{
+    color: #f80202;
+    background-color: #f6e3bf;
+    padding: 2px;
+    margin: 1px;
+    border-radius: 5px;
+    /* margin: 3px 1px; */
+    /* animation: fall 3s forwards; */
+
+}
+.current-letter{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+@media  (max-width: 900px) {
+    .typing-text-container{
+        position: relative;
+        width: 90%;
+    }
+    
+}
+@media  (max-width: 800px) {
+    .letter-container{
+        font-size: 20px;
+    }
+}
+
+@media  (max-width: 500px) {
+    .typing-test-type {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        width: 60px;
+    }
+      .typing-timer {
+        font-size: 13px !important;
+        font-weight: 600;
+      }
+      .typing-setting-icon-btn{
+          font-size: 12px;
+        }
+        .typing-setting-icons {
+            display: flex;
+            gap: 7px;
+        }
+        .typing-test-feature {
+            gap: 6px;
+      }
+      .typing-test-heading {
+          font-size: 20px !important;
+          font-weight: 800 !important;
+        }
+        .letter-container{
+            font-size: 16px;
+        }
+    }
+
+    @media  (max-width: 300px) {
+        .typing-setting-icons {
+            display: flex;
+            gap: 0px;
+            align-items: center !important;
+            flex-direction: column;
+          }
+    }
