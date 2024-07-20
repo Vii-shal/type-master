@@ -16,7 +16,7 @@
   line-height: 2;
   scroll-behavior: smooth;
   min-height: 300px;
-    height: 80vh;
+    height: calc(100vh - 150px);
 }
 .word-container{
     display: flex;
